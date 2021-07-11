@@ -4,6 +4,7 @@ He creado este BOT de habbo para discord que te da la informacion de cada usuari
 He añadido cosas nuevas al BOT
 
 Todo lo nuevo:
+<br>
 •Miembro Desde🡺 Fecha: 21/10/2011 Hora: 11:53:29 (Nuevo) La hora
 
 •Total Amigos🡺 131 (Nuevo)
