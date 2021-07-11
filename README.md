@@ -8,6 +8,7 @@ Aquí os añado una foto para que os hagais una idea:
 <img src="https://i.imgur.com/7t5I0e3.png">
 <br>
 <b>Despues</b>
+<br>
 <img src="https://i.imgur.com/7Rl39lF.png">
 <br>
 <br>
