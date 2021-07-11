@@ -170,7 +170,7 @@ async def on_ready():
       print("BOT listo!")
   
   
-bot.run("ODYzMzE0ODAzMjcxMjcwNDIx.YOlGkA.n1zZAL_PvsrMJ8_4vpGKXSwdk64")    
+bot.run("")    
    
 
 
