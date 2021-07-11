@@ -11,8 +11,6 @@ Todo lo nuevo:
 
 •Fotos Totales🡺 200 (Nuevo)
 
-•Gemas Obtenidas (Estrellas)🡺 25164
-
 •Salas totales🡺 7 (Nuevo)
 
 •Grupos totales🡺 78 (Nuevo)
