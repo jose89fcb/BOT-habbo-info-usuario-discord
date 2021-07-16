@@ -27,7 +27,7 @@ Aquí os dejo un vídeo:
 
 
 <a href="https://www.youtube.com/watch?v=7pFTc6M5vnQ">https://www.youtube.com/watch?v=7pFTc6M5vnQ</a>
-<img src="https://i.imgur.com/7Rl39lF.png">
+<img src="https://i.imgur.com/FK3KA8P.png">
 <br>
 <br>
 Deberas de conseguir tu propio BOT y el token en el siguiente link: <a href="https://discord.com/developers/applications">https://discord.com/developers/applications</a>
