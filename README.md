@@ -18,7 +18,8 @@ He creado este BOT de habbo para discord que te da la informacion de cada usuari
 <br>
 !HabboBR ejemplo
 
-Para cerrar el bot 
+Para cerrar el bot podeis usar el siguiente comando:
+<br>
 !cerrar 
 
 
