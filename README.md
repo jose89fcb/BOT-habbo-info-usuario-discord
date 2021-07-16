@@ -18,21 +18,10 @@ He creado este BOT de habbo para discord que te da la informacion de cada usuari
 <br>
 !HabboBR ejemplo
 
-He añadido cosas nuevas al BOT
+Para cerrar el bot 
+!cerrar 
 
-Todo lo nuevo:
-<br>
-•Miembro Desde🡺 Fecha: 21/10/2011 Hora: 11:53:29 (Nuevo) La hora
 
-•Total Amigos🡺 131 (Nuevo)
-
-•Fotos Totales🡺 200 (Nuevo)
-
-•Salas totales🡺 7 (Nuevo)
-
-•Grupos totales🡺 78 (Nuevo)
-
-Visita el perfil de .iroke. (Nuevo)
 
 Aquí os dejo un vídeo:
 
