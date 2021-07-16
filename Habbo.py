@@ -7,50 +7,6 @@ from urllib import parse, request
 from requests import get
 import datetime
 import asyncio
-
-
-
-
-
-
-
-bot = commands.Bot(command_prefix="!")
-bot.remove_command("help")
-
-
-
-
-
-@bot.command()
-async def Habbo(ctx,  *, Habboinfo):
-  async with ctx.typing():
-    await asyncio.sleep(0)
-
-    
-    
-   
-
-     
-
-    
-    response = requests.get(f'https://www.habbo.es/api/public/users?name={Habboinfo}')
-    Habboinfo = response.json()['uniqueId']
-    
-    
-    url= f'https://www.habbo.es/api/public/users/{Habboinfo}/badges'
-    
-
-    
-    
-    r= requests.get(url)import discord, asyncio
-from discord.ext import commands
-import requests
-import json
-import discord
-from urllib import parse, request
-from requests import get
-import datetime
-import asyncio
 import requests, json, discord, datetime, asyncio, aiohttp
 from urllib import parse, request
 
@@ -943,7 +899,7 @@ async def cerrar(ctx):
 async def on_ready():
     
     channel = discord.utils.get(bot.get_all_channels(), name='general')
-    embed = discord.Embed(title=f" ", description="él BOT **" + bot.user.name + "** ahora está en linea", color=discord.Color.green())
+    embed = discord.Embed(title=f" ", description="él BOT **" + bot.user.name + "** ahora está en linea" + "\n\nEscribe !comandos para conocer los comandos de cada hotel", color=discord.Color.green())
         
     
     embed.set_thumbnail(url="https://i.imgur.com/duRuLN6.gif")
@@ -957,7 +913,7 @@ async def on_ready():
 
 @bot.command()
 async def comandos(ctx):
-  embed = discord.Embed(title="COMANDOS", description="Aquí están todos los comandos para poder generar los usuarios de cada hotel\n\n!HabboES ejemplo\n!HabboCOM xNeptunox\n!HabboDE ejemplo\n!HabboFR ejemplo\n!HabboFI ejemplo\n!HabboIT ejemplo\n!HabboTR ejemplo\n!HabboNL ejemplo\n!HabboBR ejemplo")
+  embed = discord.Embed(title="COMANDOS", description="Aquí están todos los comandos para poder generar los usuarios de cada hotel\n\n!HabboES ejemplo\n!HabboCOM xNeptunox\n!HabboDE ejemplo\n!HabboFR ejemplo\n!HabboFI ejemplo\n!HabboIT ejemplo\n!HabboTR ejemplo\n!HabboNL ejemplo\n!HabboBR ejemplo\n\n\nEscribe !cerrar para poder cerrar el bot")
   embed.set_author(name="información", icon_url="https://i.imgur.com/grmS8RH.png")
   await ctx.send(embed=embed)  
   
@@ -973,97 +929,6 @@ bot.run(config['token'])
 
 
 
-    
-  
-
-  
-
-    habbo = r.text
-    habbo = r.json()
-    placas = len(habbo)
-
-    url= f'https://www.habbo.es/api/public/users/{Habboinfo}/friends'
-    r= requests.get(url)
-    habbo1 = r.text
-    habbo1 = r.json()
-    amigos = len(habbo1)
-
-    url = f'https://www.habbo.es/extradata/public/users/{Habboinfo}/photos'
-    r= requests.get(url)
-    habbo2 = r.text
-    habbo2 = r.json()
-    fotos = len(habbo2)
-
-    url = f'https://www.habbo.es/api/public/users/{Habboinfo}/rooms'
-    r= requests.get(url)
-    habbo3 = r.text
-    habbo3 = r.json()
-    salas = len(habbo3)
-
-    url = f'https://www.habbo.es/api/public/users/{Habboinfo}/groups'
-    r= requests.get(url)
-    habbo4 = r.text
-    habbo4 = r.json()
-    grupos = len(habbo4)
-
-
-
-    Habbokeko = response.json()['name']
-    
-
-    mision = response.json()['motto']
-    
-    
-    #####
-    
-
-   
-    ####
-
-    MiembroDesde = response.json()['memberSince']
-    registrado = MiembroDesde
-    miembro = registrado.split("T")[0].split("-")
-    fecha = "/".join(reversed(miembro))
-    MiembroDesde = MiembroDesde.replace("."," ")
-    MiembroDesde = MiembroDesde.replace("000+0000","")
-    
-    
-    registradodesde = MiembroDesde
-    miembro1 = registradodesde.split("T")[1].split(" ")
-    hora = " ".join(reversed(miembro1))
-
-    
-
-    
-  
-
-
-
-    NivelActual = response.json()['currentLevel']
-    TotalXP = response.json()['totalExperience']
-    GemasHabbo = response.json()['starGemCount']
-    siguientenivel = response.json()['currentLevelCompletePercent']
-    embed = discord.Embed(title="\n\n\nEstá es la info de 🡺 " + Habbokeko, description="•ID🡺 " + Habboinfo + "\n\n•Missión🡺 " + mision   + "\n\n•Miembro Desde🡺 " + " Fecha: " + fecha + " Hora: " + hora + "\n\n•Nivel actual🡺 " + (str(NivelActual) + "\n\n•Total placas🡺 " +(str(placas)) + "\n\n•Total Amigos🡺 " + (str(amigos)) + "\n\n•Fotos Totales🡺 "  +(str(fotos))+ "\n\n•Gemas Obtenidas (Estrellas)🡺 " + (str(GemasHabbo)) +"\n\n•Total XP🡺 ")  + (str(TotalXP)) + "\n\n•Siguiente nivel🡺 " +(str(siguientenivel)) + "\n\n•Salas totales🡺 " + (str(salas)) + "\n\n•Grupos totales🡺 " + (str(grupos)) + "\n\n[Visita el perfil de " + Habbokeko + "](https://habbo.es/profile/"+ Habbokeko + ")", timestamp=datetime.datetime.utcnow(), color=discord.Colour.random())
-    embed.set_thumbnail(url="https://www.habbo.es/habbo-imaging/avatarimage?user=" + Habbokeko + "&&headonly=1&size=b&gesture=sml&head_direction=4&action=std")
-    embed.set_author(name="Habbo [ES]", icon_url="https://i.imgur.com/0UDuO3n.png")
-    await ctx.send(embed=embed)
-    
-    
-
-     
-
-
-@bot.event
-async def on_ready():
-      print("BOT listo!")
-  
-  
-bot.run("ODYzOTQ1MDM0MjEwNjA3MTQ0.YOuRgw.Uz2y2IXAiyO584mnRHXXehAGjyA")    
-   
-
-
-    
-  
     
   
 
