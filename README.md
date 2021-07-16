@@ -17,14 +17,10 @@ Todo lo nuevo:
 
 Visita el perfil de .iroke. (Nuevo)
 
-Aquí os añado una foto para que os hagais una idea:
+Aquí os dejo un vídeo:
 
-<b>Antes</b> (Ultimo accesso fue eliminado)
-<br>
-<img src="https://i.imgur.com/7t5I0e3.png">
-<br>
-<b>Despues</b>
-<br>
+
+<a href="https://www.youtube.com/watch?v=7pFTc6M5vnQ">https://www.youtube.com/watch?v=7pFTc6M5vnQ</a>
 <img src="https://i.imgur.com/7Rl39lF.png">
 <br>
 <br>
