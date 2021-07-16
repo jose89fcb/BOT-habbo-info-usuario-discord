@@ -26,7 +26,11 @@ Para cerrar el bot podeis usar el siguiente comando:
 Para conocer todos los comandos podeis usar
 <br>
 !comandos
-
+<br>
+<br>
+Al intentar hablar con el bot por privado te dira que no puedes hablarle:
+<br>
+<img src="https://i.imgur.com/80bo1GK.png">
 
 Aquí os dejo un vídeo:
 
