@@ -1,13 +1,21 @@
 He creado este BOT de habbo para discord que te da la informacion de cada usuario escribiendo el siguiente comando:
 
 !HabboES ejemplo
+<br>
 !HabboCOM ejemplo
+<br>
 !HabboDE ejemplo
+<br>
 !HabboFR ejemplo
+<br>
 !HabboFI ejemplo
+<br>
 !HabboIT ejemplo
+<br>
 !HabboTR ejemplo
+<br>
 !HabboNL ejemplo
+<br>
 !HabboBR ejemplo
 
 He añadido cosas nuevas al BOT
